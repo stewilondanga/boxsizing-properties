@@ -83,20 +83,19 @@ input {
   width: 50vw;
 }
 
-/*.example {
-	background: #aaa;
-	border: 0px solid black;
-	height: 200px;
-	width: 200px;
-	padding: 0px;
-
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+.example {
+  background: #aaa;
+  border: 0px solid black;
+  height: 200px;
+  width: 200px;
+  padding: 0px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#example--one {
+/*#example--one {
 	box-sizing: content-box;
 }
 #example--two {
