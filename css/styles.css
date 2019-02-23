@@ -103,7 +103,7 @@ input {
   box-sizing: border-box
 }
 
-/*@media (max-width: 600px) {
+@media (max-width: 600px) {
 	body {
 		flex-direction: column;
 		height: auto;
@@ -119,7 +119,7 @@ input {
 	}
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
