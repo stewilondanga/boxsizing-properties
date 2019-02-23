@@ -99,11 +99,11 @@ input {
   box-sizing: content-box;
 }
 
-/*#example--two {
-	box-sizing: border-box
+#example--two {
+  box-sizing: border-box
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
 	body {
 		flex-direction: column;
 		height: auto;
