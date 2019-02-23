@@ -47,10 +47,11 @@ body {
   padding: 5px 0;
 }
 
-/*.lesson hr {
-	margin: 10px 0;
+.lesson hr {
+  margin: 10px 0;
 }
 
+/*
 
 form {
 	border: 2px solid white;
