@@ -95,10 +95,11 @@ input {
   justify-content: center;
 }
 
-/*#example--one {
-	box-sizing: content-box;
+#example--one {
+  box-sizing: content-box;
 }
-#example--two {
+
+/*#example--two {
 	box-sizing: border-box
 }
 
