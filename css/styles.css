@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -9,7 +9,7 @@ body {
 .my_social {
   position: absolute;
   top: 25px;
-  left: 25px;
+  left: 725px;
 }
 
 .my_social a {
@@ -19,6 +19,107 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+* {
+	font-family: 'Rokkitt', serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+
+}
+.left {
+	background: #F0F3BD;
+	box-shadow: 0 0 40px black;
+	width: 50vw;
+}
+
+.lesson {
+	color: #4B4C3B;
+	font-size: 110%;
+	padding: 5%;
+	width: 90%;
+}
+.lesson h4 {
+	font-size: 120%;
+}
+.lesson p {
+	padding: 5px 0;
+}
+.lesson hr {
+	margin: 10px 0;
+}
+
+
+form {
+	border: 2px solid white;
+	box-sizing: border-box;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	margin: 5%;
+	margin-top: 0;
+	padding: 10px;
+	text-align: center;
+	width: 90%;
+}
+label {
+	font-size: 16px;
+}
+input {
+	font-size: 16px;
+	width: 50%;
+}
+
+
+.examples {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: space-around;
+	width: 50vw;
+}
+.example {
+	background: #aaa;
+	border: 0px solid black;
+	height: 200px;
+	width: 200px;
+	padding: 0px;
+
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#example--one {
+	box-sizing: content-box;
+}
+#example--two {
+	box-sizing: border-box
+}
+
+@media (max-width: 600px) {
+	body {
+		flex-direction: column;
+		height: auto;
+	}
+	.left {
+		box-sizing: border-box;
+		width: 100vw;
+	}
+	.examples {
+		min-height: 80vh;
+		height: auto;
+		width: 100vw;
+	}
 }
 
 .containers {
