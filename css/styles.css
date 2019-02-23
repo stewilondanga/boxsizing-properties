@@ -104,27 +104,29 @@ input {
 }
 
 @media (max-width: 600px) {
-	body {
-		flex-direction: column;
-		height: auto;
-	}
-	.left {
-		box-sizing: border-box;
-		width: 100vw;
-	}
-	.examples {
-		min-height: 80vh;
-		height: auto;
-		width: 100vw;
-	}
+  body {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left {
+    box-sizing: border-box;
+    width: 100vw;
+  }
+
+  .examples {
+    min-height: 80vh;
+    height: auto;
+    width: 100vw;
+  }
 }
 
-/*.containers {
+.containers {
   width: 520px;
   margin: 20px auto;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
