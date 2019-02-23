@@ -43,10 +43,11 @@ body {
   font-size: 120%;
 }
 
-/*.lesson p {
-	padding: 5px 0;
+.lesson p {
+  padding: 5px 0;
 }
-.lesson hr {
+
+/*.lesson hr {
 	margin: 10px 0;
 }
 
