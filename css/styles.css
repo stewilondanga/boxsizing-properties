@@ -39,10 +39,11 @@ body {
   width: 90%;
 }
 
-/*.lesson h4 {
-	font-size: 120%;
+.lesson h4 {
+  font-size: 120%;
 }
-.lesson p {
+
+/*.lesson p {
 	padding: 5px 0;
 }
 .lesson hr {
