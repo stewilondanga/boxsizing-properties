@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -27,13 +34,6 @@
   height: 1.5em;
 }
 
-body {
-	align-items: center;
-	display: flex;
-	height: 100vh;
-	justify-content: center;
-
-}
 .left {
 	background: #F0F3BD;
 	box-shadow: 0 0 40px black;
