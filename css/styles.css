@@ -26,14 +26,13 @@ body {
   height: 1.5em;
 }
 
-/*
 .left {
-	background: #F0F3BD;
-	box-shadow: 0 0 40px black;
-	width: 50vw;
+  background: #F0F3BD;
+  box-shadow: 0 0 40px black;
+  width: 50vw;
 }
 
-.lesson {
+/*.lesson {
 	color: #4B4C3B;
 	font-size: 110%;
 	padding: 5%;
